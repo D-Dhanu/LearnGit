@@ -1,11 +1,12 @@
 #include<iostream>
 using namespace std;
 
+void Derivative();
 int main(){
-
+ Derivative();
 }
 
-void Derivative(int fnction){
+void Derivative(){
   printf("Derivative Called");
 }
 
